@@ -1,27 +1,5 @@
-/*Cria um banco de dados se não existir
-// ou usa um banco criado anteriormente se já existir.
-use('ifms');
-
-// Collection equivale a uma tabela no banco de dados MYSQL
-// Código que cria uma Collection no mongoDB
-db.createCollection("estudante");
-
-db.getCollection('estudante').insertOne({
-    nome:"Guilherme",
-    idade: 29,
-    cpf: "038.294.458-40",
-    telefone: "67996561345"
-});
-//*-> PROFESSOR
-nome
-idade
-email
-endereco
-
--> Insira pelo menos 1 professor no banco-*/
-
 use('fecinavidb');
-db.createCollection("trabalhos");
+db.creteCollection("trabalhos");
     /////////01//a///////                     
 db.getCollection('trabalhos').insertMany({
 
@@ -37,8 +15,8 @@ avaliadores:[
     {cpf:"313.254.545-44",nome:"julia",nota:"8,5"}
 ],
 mediaavaliacao:"9",
-})
-/*///////////////02////////////
+},
+////////////////02////////////
 {
 
     titulo:"Carbono zero",
@@ -103,4 +81,14 @@ mediaavaliacao:"9",
                 {cpf:"313.254.545-44",nome:"julia",nota:"8,5"}
             ],
             mediaavaliacao:"9",
-        })*/
+        })
+    
+          
+
+            /*
+
+
+
+Faça um código que liste todos os 5 trabalhos cadastrados na coleção “trabalhos”;
+
+Faça um código que liste todos os trabalho pertencentes a área de “Biológicas”*/
